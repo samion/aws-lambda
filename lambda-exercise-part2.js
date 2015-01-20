@@ -12,10 +12,8 @@ listBucket = function(bucket, callback) {
     };
     s3.listObjects(params, function(err, data) {
         if (err) console.log(err, err.stack); // an error occurred
-        else {
-            console.log(data);           // successful response
-            callback();
-        }
+        else console.log(data);           // successful response
+        callback();
     });
 }
 
@@ -34,11 +32,8 @@ addToDynamoDB = function(itemname, message, details, callback) {
         'TableName': tablename,
         'Item': item
     }, function(err, data) {
-        if (err) {
-            console.log(err, err.stack);
-        } else {
-            console.log(data);
-        }
+        if (err) console.log(err, err.stack);
+        else console.log(data);
         callback();
     });
 };

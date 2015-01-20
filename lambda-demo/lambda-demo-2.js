@@ -1,6 +1,5 @@
 console.log('Loading event');
 var aws = require('aws-sdk');
-//var Q   = require('q');
 var s3 = new aws.S3({apiVersion: '2006-03-01'});
 var dynamodb = new aws.DynamoDB();
 var tablename = 'device-event';
@@ -34,6 +33,8 @@ addToDynamoDB = function(devices, callback) {
     var batches = Math.ceil(items.length / 25);
     console.log('Creating ' + batches + ' DynamoDB batches of put item operations, total items ' + items.length);
     
+    // latch used to wait for multiple callbacks to finish
+    // promises could be used as well
     // simple countdown latch
     function CDL(countdown, completion) {
         this.signal = function() {
@@ -62,11 +63,8 @@ putToDynamoDB = function(item, callback) {
             'TableName': tablename,
             'Item': item
     }, function(err, data) {
-        if (err) {
-            console.log(err, err.stack);
-        } else {
-            console.log(data);
-        }
+        if (err) console.log(err, err.stack);
+        else console.log(data);
         callback.signal();
     });
 }
@@ -77,11 +75,8 @@ batchToDynamoDB = function(items, callback) {
             'device-event': items
         }
     }, function(err, data) {
-        if (err) {
-            console.log(err, err.stack);
-        } else {
-            console.log(data);
-        }
+        if (err) console.log(err, err.stack);
+        else console.log(data);
         callback.signal();
     });
 }
@@ -104,7 +99,6 @@ exports.handler = function(event, context) {
     var readable = s3.getObject(params).createReadStream();
     readable.setEncoding('utf8');
     readable.on('data', function(chunk) {
-        //var part = buffer.read().toString();
         message += chunk;
     });
 
