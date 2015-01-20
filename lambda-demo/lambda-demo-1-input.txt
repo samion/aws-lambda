@@ -1,0 +1,12 @@
+foo
+00:04:17.654 | INFO  | f.l.t.o.u.l.LoggingRequestInterceptor | > <?xml version="1.0" encoding="UTF-8"?><syoteRivi tyyppi="TIEDON_MUOKKAUS"><kuvaus>Laitteen tila on muuttunut. Opastintaulussa 'Suorituskykytestaus 14 - Opastintaulu Hämeenlinnanväylä P - Kehä 3:n liittymä I' varoitusmerkkinä on '189' ja riveinä:
+bar        
+00:09:17.648 | INFO  | f.l.t.o.u.l.LoggingRequestInterceptor | > <?xml version="1.0" encoding="UTF-8"?><syoteRivi tyyppi="TIEDON_MUOKKAUS"><kuvaus>Laitteen tila on muuttunut. Opastintaulussa 'Suorituskykytestaus 10 - Opastintaulu Kehä 3 I c' varoitusmerkkinä on '189' ja riveinä:
+1111111
+2222222        
+00:14:17.719 | INFO  | f.l.t.o.u.l.LoggingRequestInterceptor | > <?xml version="1.0" encoding="UTF-8"?><syoteRivi tyyppi="TIEDON_MUOKKAUS"><kuvaus>Laitteen tila on muuttunut. Opastintaulussa 'Suorituskykytestaus 7 - Opastintaulu Kehä 3 I b' varoitusmerkkinä on '189' ja riveinä:
+3333333
+4444444        
+00:19:17.712 | INFO  | f.l.t.o.u.l.LoggingRequestInterceptor | > <?xml version="1.0" encoding="UTF-8"?><syoteRivi tyyppi="TIEDON_MUOKKAUS"><kuvaus>Laitteen tila on muuttunut. Opastintaulussa 'Suorituskykytestaus 5 - Opastintaulu Tuusulanväylä P - Kehä 3:n liittymä I' varoitusmerkkinä on '189' ja riveinä:
+00:24:17.707 | INFO  | f.l.t.o.u.l.LoggingRequestInterceptor | > <?xml version="1.0" encoding="UTF-8"?><syoteRivi tyyppi="TIEDON_MUOKKAUS"><kuvaus>Laitteen tila on muuttunut. Opastintaulussa 'Suorituskykytestaus 14 - Opastintaulu Hämeenlinnanväylä P - Kehä 3:n liittymä I' varoitusmerkkinä on '189' ja riveinä:
+ffffffff

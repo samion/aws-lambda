@@ -1,0 +1,41 @@
+{"device":"Demolaite  Hämeenlinnanväylä E - Kehä 3:n liittymä I","count":39}	
+{"device":"Demolaite  Hämeenlinnanväylä P - Kehä 3:n liittymä I","count":44}	
+{"device":"Demolaite  Kehä 3 I a","count":52}	
+{"device":"Demolaite  Kehä 3 I b","count":40}	
+{"device":"Demolaite  Kehä 3 I c","count":40}	
+{"device":"Demolaite  Kehä 3 I d","count":48}	
+{"device":"Demolaite  Kehä 3 I e","count":36}	
+{"device":"Demolaite  Kehä 3 I f","count":48}	
+{"device":"Demolaite  Lahdenväylä E - Kehä 3:n liittymä I","count":36}	
+{"device":"Demolaite  Lahdenväylä P - Kehä 3:n liittymä I","count":48}	
+{"device":"Demolaite  Porvoonväylä I - Kehä 3:n liittymä I","count":36}	
+{"device":"Demolaite  Porvoonväylä L - Kehä 3:n liittymä I","count":44}	
+{"device":"Demolaite  Turunväylä I - Kehä 3:n liittymä I","count":44}	
+{"device":"Demolaite  Turunväylä L - Kehä 3:n liittymä I","count":44}	
+{"device":"Demolaite  Tuusulanväylä E - Kehä 3:n liittymä I","count":40}	
+{"device":"Demolaite  Tuusulanväylä P - Kehä 3:n liittymä I","count":56}	
+{"device":"Demolaite  Vihdintie E - Kehä 3:n liittymä I","count":52}	
+{"device":"Demolaite  Vihdintie P - Kehä 3:n liittymä I","count":44}	
+{"device":"Opastintaulu HVV E b","count":7}	
+{"device":"Opastintaulu HVV P a","count":6}	
+{"device":"Opastintaulu Hämeenlinnanväylä E - Kehä 3:n liittymä I","count":118}	
+{"device":"Opastintaulu Hämeenlinnanväylä P - Kehä 3:n liittymä I","count":138}	
+{"device":"Opastintaulu Kehä 3 I a","count":123}	
+{"device":"Opastintaulu Kehä 3 I b","count":119}	
+{"device":"Opastintaulu Kehä 3 I c","count":113}	
+{"device":"Opastintaulu Kehä 3 I d","count":120}	
+{"device":"Opastintaulu Kehä 3 I e","count":136}	
+{"device":"Opastintaulu Kehä 3 I f","count":112}	
+{"device":"Opastintaulu Lahdenväylä E - Kehä 3:n liittymä I","count":120}	
+{"device":"Opastintaulu Lahdenväylä P - Kehä 3:n liittymä I","count":150}	
+{"device":"Opastintaulu Porvoonväylä I - Kehä 3:n liittymä I","count":126}	
+{"device":"Opastintaulu Porvoonväylä L - Kehä 3:n liittymä I","count":150}	
+{"device":"Opastintaulu Turunväylä I - Kehä 3:n liittymä I","count":148}	
+{"device":"Opastintaulu Turunväylä L - Kehä 3:n liittymä I","count":114}	
+{"device":"Opastintaulu Tuusulanväylä E - Kehä 3:n liittymä I","count":138}	
+{"device":"Opastintaulu Tuusulanväylä P - Kehä 3:n liittymä I","count":129}	
+{"device":"Opastintaulu Vihdintie E - Kehä 3:n liittymä I","count":140}	
+{"device":"Opastintaulu Vihdintie P - Kehä 3:n liittymä I","count":137}	
+{"device":"Opastintaulu Vt 9 L a","count":6}	
+{"device":"Opastintaulu Vt 9 L b","count":6}	
+{"device":"S","count":1}	
