@@ -34,7 +34,7 @@ createEMRJob = function(itemname, callback) {
             TerminationProtected: false
         },
         Name: 'Device event counts by ' + username,
-        AmiVersion: '3.3.1',
+        AmiVersion: '3.6.0',
         BootstrapActions: [{
             Name: 'InstallNode.js',
             ScriptBootstrapAction: {
